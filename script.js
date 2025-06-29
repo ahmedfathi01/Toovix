@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Modern navbar scroll effect
     window.addEventListener('scroll', function() {
-        if (window.scrollY > 100) {
+        if (window.scrollY > 400) {
             navbar.classList.add('scrolled');
         } else {
             navbar.classList.remove('scrolled');
